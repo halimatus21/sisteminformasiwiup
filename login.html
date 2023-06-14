@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: rgba(100, 99, 99, 0.932);
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        max-width: 850px;
+        background: #bcb5b5;
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    form{
+        width: 250px;
+        margin: 60px auto;
+    }
+    h1{
+        margin: 20px;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    } 
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    form label{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    input{
+        width: 100%;
+        margin: 2px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 8px;
+        width: 252px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: rgba(71, 71, 71, 0.932);
+    }
+    button:hover{
+        background: rgb(139, 135, 135);
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Sing in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="apps">
+        <h1>Halaman Masuk</h1>
+        <form action="" method="post">
+            <input type="text" name="username" class="input" placeholder="Masukan Username..." /><br /><br />
+            <input type="password" name="password" class="input" placeholder="Masukan Password" /><br /><br />
+            <form-group">
+            <label for="pilihan_user">Pilihan User</label> 
+            <select name='pilihan_user' class="select">
+                <option value='user'>user</option>
+                <option value='admin'>admin</option>
+              </select>
+            <a href="exploremap.html"><button type="button">Signin</button></a>
+            <a href="registrasi.html">Belum memiliki akun?</a>       
+    </div>
+</body>
+
+</html>
